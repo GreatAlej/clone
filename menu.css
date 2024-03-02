@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#898f9c;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position:static;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+}
+
+.menu-intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-intro i {
+    padding-right: 10px;
+}
+
+.header i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.menu-start {
+    padding-left: 10px;
+}
+
+.menu-start img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.invite {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    width: 93%;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    color: #000;
+}
+
+.invite p {
+    font-size: 18px;
+}
+
+.invite i {
+    font-size: 25px;
+    color: red;
+    padding-right: 8px;
+}
+
+.menu-items {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.sub-menu-item {
+    background-color: #fff;
+    color: #000;
+    width: 48%;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.sub-menu-item i {
+    font-size: 22px;
+}
+
+.sub-menu-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.message i {
+    background: -webkit-linear-gradient(70deg, blue, rgb(218, 56, 218)) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reels i {
+    background: -webkit-linear-gradient(20deg, rgb(245, 180, 61), rgb(217, 87, 215));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+}
+
+.group i {
+    color: #fff;
+    background-color: rgb(47, 154, 242);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.market i {
+    color: rgb(30, 81, 189);
+    font-size: 27px;
+}
+
+.saved i{
+    background: -webkit-linear-gradient( rgba(234, 94, 234, 0.997), rgb(147, 4, 147));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+}
+
+.pages i {
+    background: -webkit-linear-gradient(left, rgb(37, 42, 196), orange, rgb(243, 167, 25));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+}
+
+.events i {
+    background: -webkit-linear-gradient(90deg, rgb(148, 143, 143), rgba(198, 185, 185, 0.75), red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: rgb(147, 138, 138); */
+    font-size: 27px;
+}
+
+.fantasy-games i {
+    color: rgb(226, 194, 14);
+    font-size: 27px;
+}
+
+.verified i {
+    color: rgb(47, 154, 242);
+    font-size: 27px;
+}
+
+.memories i {
+    color: rgb(85, 85, 221);
+    font-size: 27px;
+}
+
+.games i {
+    color: rgb(50, 50, 217);
+    font-size: 27px;
+}
+
+.mobile-network i {
+    background: -webkit-linear-gradient(right, rgb(197, 43, 161), rgb(122, 18, 122), #191818, rgb(122, 18, 122),rgb(197, 43, 161) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
